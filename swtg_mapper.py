@@ -196,7 +196,7 @@ html = '''<!DOCTYPE html>
 </html>'''
 
 try:
-    for fn in ['script.js', 'style.css']:
+    for fn in ['script.js', 'style.css', 'gemfinder.svg']:
         shutil.copyfile(fn, output(fn))
 except Exception:
     pass

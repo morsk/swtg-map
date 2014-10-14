@@ -12,7 +12,7 @@ body {
     user-select: none;
 }
 
-#display, #offset, .region, .room, .edge, .entity, .highlight {
+#display, #offset, .region, .room, .edge, .entity, .highlight, .gemfinder {
     position: absolute;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -56,6 +56,16 @@ body {
 .entity.unimportant {
     z-index: 39;
     border-color: rgba(255, 0, 0, 0.4);
+}
+
+.gemfinder {
+    z-index: 38;
+    background-image: url('gemfinder.svg');
+    background-size: 32px 32px;
+    width: 32px;
+    height: 32px;
+    left: -8px;
+    top: -8px;
 }
 
 .highlight {

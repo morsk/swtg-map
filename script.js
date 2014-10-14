@@ -109,6 +109,7 @@ $(function() {
     $('.entity').dblclick(function() {
         scroll_and_hash(this, 400)
     })
+    $('.entity.gem').css('border', 'none').append('<div class="gemfinder"/>')
     $('a[href^="#"]').click(function(e) {
         if (e.preventDefault) {
             e.preventDefault()
