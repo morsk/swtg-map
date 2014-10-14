@@ -69,10 +69,8 @@ body {
 }
 
 .highlight {
-    border: 2px solid white;
-    -webkit-border-radius: 50%; 
-    -moz-border-radius: 50%; 
-    border-radius: 50%;
+    background-image: url('highlight.svg');
+    background-size: 100% 100%;
 }
 
 .header {
